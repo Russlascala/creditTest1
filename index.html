@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Credit MAIN</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="logobar" id="topBar">
+        <div class="container">
+            <!--Grid row-->
+            <div class="row">
+                <div class="col-md-6 text-md-left">
+                    <img src="assets/imgs/logo.png" alt="logo image"  id="logoTop" class="logoImg">
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <img src="assets/imgs/cards.png" alt="logo image" id="cardTop" class="logoImg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section one start -->
+    <header> 
+        <!-- Full Page Intro -->
+        <div class="view" style="background-image: url('assets/imgs/creditPantsBlu.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-gradient d-flex justify-content-center align-items-center"></div>
+                <!-- Content -->
+                <div class="container">
+                    <!--Grid row-->
+                    <div class="row mt-5">
+                        <!--Grid column-->
+                        <div class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left">
+                            <h1 class="col-md-6-pull-6 h1-responsive font-weight-bold mainTxtSM" id="sloganOneSM">Credit Options for Everybody!</h1>
+                            <!--Form-->
+                            <form class="card" id="form" role="form" data-toggle="validator" onSubmit="if(!confirm('Thank you! We will be in touch with you shortly.')){return false;}">
+                                <div class="card-body">
+                                    <!--Header-->
+                                    <div class="text-center">
+                                        <h3 class="white-text" id="formTop">
+                                            <i class="fa fa-thumbs-up fa-fw"></i>Get Approved!</h3>
+                                        <hr class="hr-light">
+                                    </div>
+                                    <!--Body-->
+                                    <div class="md-form">
+                                        <input type="text" id="form1" class="white-text form-control" placeholder="Name" required="required">
+                                    </div>
+                                    <!-- <div class="md-form">
+                                        <input type="text" id="form2" class="white-text form-control" placeholder="Last Name" required="required">
+                                    </div> -->
+                                    <div class="md-form">
+                                        <input type="email" id="form3" class="white-text form-control" placeholder="Email" data-error="Bruh, that email address is invalid"
+                                            required="required">
+                                    </div>
+                                    <div class="md-form" id="dropSel">
+                                        <label id="form5" required><b>Rate Your Credit:</b></label>
+                                        <!-- <input type="password" id="form5" class="white-text form-control"> -->
+                                        <select class="form-control" required="required">
+                                            <option value="">Select</option>
+                                            <option value="Excellent">Excellent</option>
+                                            <option value="Average">Average</option>
+                                            <option value="Poor">Poor</option>
+                                            <option value="Unsure">Unsure</option>
+                                        </select>
+                                    </div>
+                                    <div class="chbxbkg" style="font-size:10px">
+                                        <div id='chbx'>
+                                            <table>
+                                                <th>
+                                                    <input type="checkbox" name="consent" value="consent" required="required">
+                                                </th>
+                                                <td>
+                                                    I agree to the privacy policy and to receive relevant daily emails from MySimpleCreditMatch and CreditCardCommittee regarding
+                                                        exciting new offers.
+                                                </td>
+                                            </table>
+                                        </div>
+                                        <!-- <hr class="hr-light mb-3 mt-4"> -->
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn" type="submit">Submit!</button>
+                                        <div id="messages_content"></div>
+                                    </div>
+                                    
+                                    <div class="text-center mt-4">
+                                        <hr class="hr-light mb-3 mt-4">
+                                        <div id="iconsImg" class="inline-ul text-center d-flex justify-content-center">
+                                            <img id="icons-2" class="img-responsive" src="assets/imgs/icons-2.png" alt="">
+                                            <!-- <a class="p-2 m-2 tw-ic">
+                                                                            <i class="fa fa-twitter white-text"></i>
+                                                                        </a>
+                                                                        <a class="p-2 m-2 li-ic">
+                                                                            <i class="fa fa-linkedin white-text"> </i>
+                                                                        </a>
+                                                                        <a class="p-2 m-2 ins-ic">
+                                                                            <i class="fa fa-instagram white-text"> </i>
+                                                                        </a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            
+                            <!--/.Form-->
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-md-6 col-xl-5 mb-4 text-center">
+                            <!-- <img src="assets/imgs/logo.png" alt="logo image" > -->
+                            <h1 class="col-md-6-pull-6 h1-responsive font-weight-bold mainTxt" id="sloganOne">Credit Options
+                                <br> for Everybody!</h1>
+                            <!-- <img src="assets/imgs/cards-2.png" id="cardTwo" alt="logo image"> -->
+                            <h4 class="mb-3" id="sloganTwo">Compare &amp; Get Approved for Top Rated Credit Cards!</h4>
+                            <!-- <hr class="hr-light "> -->
+                           <!--  <div class="text-center mt-4">
+                                <button class="btn">
+                                    <i class="fa fa-phone fa-fw"></i>Call Today 1-888-520-9962</button>
+                            </div> -->
+                            <!-- <hr class="hr-light ">
+                                                        <img id="icons-2" src="assets/imgs/icons-2.png" alt=""> -->
+                            <hr class="hr-light ">
+                            <div class="sloganChecks">
+                                <h6>
+                                    <i class="fa fa-check-circle fa-fw"></i>Compare top-rated credit cards
+                                </h6>
+                                <h6>
+                                    <i class="fa fa-check-circle fa-fw"></i>Choose the features that matter most
+                                </h6>
+                                <h6>
+                                    <i class="fa fa-check-circle fa-fw"></i>Get all of your questions answered
+                                </h6>
+                            </div>
+            
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+         <!-- </div>
+       Full Page Intro -->
+    </header>
+    <!--section one end-->
+    <main>
+        <!-- section two top -->
+        <div id="sectionTwo">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-5">
+                    <!--Grid column-->
+                    <div class="col-md-12 text-center" id="bigText">
+                        <p>Complete the form to Compare &amp; Get Approved!</p>
+                        <!-- <p>Inside the Guide you will learn:</p> -->
+                    </div>
+                    
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+        <!-- section two bottom-->
+        <div class="view" style="background-image: url('assets/imgs/cardbannercover2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; margin-top:-25px;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-gradient d-flex justify-content-center align-items-center"></div>
+            <!-- Content -->
+            <div class="container">
+                <!--Grid row-->
+                <div class="row mt-5">
+                    <div class="container">
+                        <!--Grid row-->
+                        <div class="row py-5  sloganInfo">
+                            <!--Grid column-->
+                            <div class="col-md-12 text-left taglines">
+                                <ul>
+                                    <li>
+                                        <!-- <i class="fa fa-star fa-fw"></i> --><span>No waiting, no hassle and no embarrassing credit checks required!</span>
+                                    </li>
+                                </ul>
+            
+                                <ul>
+                                    <li>
+                                        <!-- <i class="fa fa-star fa-fw"></i> --><span>Fill out our risk-free application and receive your personalized offer instantly!</span>
+                                    </li>
+                                </ul>
+                                
+                                <ul>
+                                    <li>
+                                        <!-- <i class="fa fa-star fa-fw"></i> --><span>MySimpleCreditMatch.com uses SSL Encryption to protect your information.</span>
+                                    </li>
+                                </ul>
+                        
+                            </div>
+                            
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </div>
+                </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6 col-xl-5 mb-4">
+                        
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            
+            <!-- Content -->
+            <div id="sectionThree">
+                <div class="container">
+                    <!--Grid row-->
+                    <div class="row py-5">
+                        <!--Grid column-->
+                        <div class="col-lg-12 text-center" >
+                            <!-- <img class="img-responsive" id="brands" src="assets/imgs/brands-black.jpg">-->
+                        </div> 
+                        
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+            </div>
+            
+            <div class="lineFade"></div>
+            
+
+            <footer>
+                <div class="container">
+                    <!--Grid row-->
+                    <div class="row py-5">
+                        <!--Grid column-->
+                        <div class="col-lg-12 text-center" id="altLinks">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Unsubscribe</a>
+                        </div>
+                        <div class="col-lg-12 text-center" id="copyRight">
+                             &copy; 2018
+                            <a href="#"> MySimpleCreditMatch.com</a> All Rights Reserved.
+                        </div>    
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </div>
+            </footer>
+            
+       
+    </main>
+
+    <!--Main Layout-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

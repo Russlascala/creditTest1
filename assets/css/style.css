@@ -1,0 +1,297 @@
+/* body {
+   font-family: 'Roboto', sans-serif;
+} */
+
+.logobar{
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 15px #333;
+}
+
+.logoImg {
+    margin: 5px;
+    width: 60%;
+}
+
+#logoTop{
+    margin-top: 20px;
+}
+ 
+
+/* top section */
+#sloganOne{
+    color:#50B6CC;
+    font-size:50px;
+    text-shadow: 2px 2px black;
+}
+#sloganOneSM{
+    color:#50B6CC;
+    font-size:40px;
+    padding-bottom: 20px;
+    margin-top: -25px;
+    text-shadow: 2px 2px black;
+}
+
+#cardTwo{
+    width: 70%;
+    
+}
+
+#sloganTwo {
+    color:#ACCC53;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+.card {
+    /* background: #d3d3d3; */
+    background-color: rgba(202, 202, 201, 0.664);
+}
+
+#formTop{
+    font-size:32px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px rgb(32, 99, 114);
+    font-weight: bold;
+}
+
+.chbxbkg{
+    border-radius: 6px;
+    background: white;
+    color:black;
+    text-align: left;
+}
+
+#chbx {
+    padding:6px;
+}
+
+#form5{
+    text-shadow: 2px 2px 2px rgb(32, 99, 114);
+    color:white;
+}
+#chbx td {
+  padding-left: 10px;
+  font-size: 9px;
+}
+.md-form, input {
+    padding-bottom:6px;
+}
+
+#dropSel label{
+    margin-bottom:0;
+    margin-top:3px;
+}
+
+#icons-2 {
+    width: 100%;
+    height: 90%;
+} 
+
+.btn {
+    background-color:#ACCC53;
+    font-weight: bold;
+    padding:15px 25px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn:hover {
+  transition : 0.3s;
+  box-shadow : 0px 0px 1px 6px #50B6CC;
+ 
+  cursor : pointer;
+}
+#callBtn span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sloganChecks {
+    padding:10px 5px 5px 10px;
+    background-color: rgba(80, 181, 204, 0.5);
+    border-radius: 10px;
+    text-align: left;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+    letter-spacing: .1px;
+    text-shadow: 1px 1px black;
+  }
+
+  .sloganChecks h6 i {
+      margin-right: 5px;
+  }
+/*   end top section */
+
+/*   second section */
+#sectionTwo{
+    background: #E9E9EB;
+}
+
+ #bigText p {
+    margin-bottom: 2rem!important;
+} 
+#sectionTwo, .row.py-5{
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+#bigText{
+   font-size: 38px; 
+   padding: 5px;
+   font-weight: bold;
+   color: #50B6CC;
+   
+}
+
+.sloganInfo {
+    margin-bottom:45px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
+    text-shadow: 1px 1px #324B51;
+    border-radius: 12px;
+    
+}
+/* .sloganInfo, h6{
+    font-size: 22px;
+    text-indent: -.1em;
+} */
+
+.taglines li {
+    font-size: 22px;
+}
+
+
+.taglines li {
+    list-style-type: none;
+    position: relative;
+    
+}
+
+.taglines li::before{
+    content: '\f005';
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+    position: absolute;
+    left: -35px;
+    font-size: 30px;
+    color: #50B6CC;
+    
+}
+/* .taglines li::after{
+    padding-right: 10px;
+    list-style-position: outside;
+} */
+
+/*   end second section */
+
+#sectionThree{
+    background-color: #E9E9EB;
+    margin-top:-25px;
+}
+
+/*   third section */
+#brands{
+    width:100%;
+}
+
+.lineFade{ 
+    height:1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#E9E9EB), to(#E9E9EB), color-stop(50%, #50B6CC));
+    /* display:block;
+    border:none;
+    height:26px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#F2CE5D)); */
+}
+/*   end third section */
+footer{
+    background-color: #E9E9EB;
+    color: white;
+}
+
+footer, a{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #324B51;
+}
+footer a:hover{
+    color: #005B41;
+}
+
+#altLinks{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#copyRight{
+    font-size: 12px;
+}
+
+/*   footer section */
+
+/*   end footer section */
+
+
+/*   responsive styles */
+
+/*  Extra extra small devices (portrait phones, less than 425px) this is a fix for icons-2.png for small screens */
+@media (max-width: 425px) { 
+    
+ }
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #bigText{
+        font-size: 25px;
+    }
+
+    .sloganInfo {
+        margin-top: 30px;
+    }
+    .sloganInfo, h6{
+        font-size: 16px;
+    }
+
+ }
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .mt-5, .my-5 {
+        margin-top: 1.5rem!important;
+    }
+
+    #logoTop{
+        margin-top: 5px;
+    }
+
+    #cardTop{
+        display: none;
+    }
+
+    .mainTxt{
+        display: none;
+    }
+ }
+  /* Medium devices (tablets, less than 992px) */
+@media (min-width: 767.99px) { 
+    .mainTxtSM{
+        display: none;
+       
+    }
+
+ }
+
+ /* Medium devices (tablets, less than 992px) 
+@media (min-width: 991.98px) { 
+    .mainTxtSM{
+        display: none;
+    }
+ }*/
+
+/*  Large devices (desktops, less than 1200px) 
+@media (min-width: 1199.98px) { 
+    .mainTxtSM{
+        display: none;
+    }
+ }*/
+
