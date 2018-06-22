@@ -281,12 +281,12 @@ footer a:hover{
 
  }
 
- /* Medium devices (tablets, less than 992px) 
-@media (min-width: 991.98px) { 
-    .mainTxtSM{
-        display: none;
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+     #sloganOne{
+        font-size:48px;
     }
- }*/
+ }
 
 /*  Large devices (desktops, less than 1200px) 
 @media (min-width: 1199.98px) { 
